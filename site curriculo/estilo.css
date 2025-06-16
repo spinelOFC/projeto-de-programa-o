@@ -1,0 +1,147 @@
+body{
+ /* cor de fundo */
+    background-color: #17519c;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-linhas-dinamicas-de-estilo-de-papel_23-2149006599.jpg?semt=ais_hybrid&w=740);
+ background-size: cover;
+    /* cor da letra */
+color: rgb(0, 0, 0);
+ /* alinhamento de texto */
+text-align: center;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+section {
+ /* cor de fundo */
+background-color: rgba(231, 24, 24, 0.63);
+ /*largura *
+max-width:600px;
+ /* centralizar card */
+margin: auto;
+/* arredondar boda */
+border-radius: 15px;
+/* espaçamento interno */
+padding: 2px;
+/* espaçamento externo */
+margin-bottom: 15px;
+ /* sonbra */
+ box-shadow: 2px 2px 7px rgb(174, 0, 255);
+padding-bottom: 10px;
+
+}
+section:hover{
+ /* cor de fundo */
+background-color: rgba(224, 54, 54, 0.774);
+ /* tempo de transição */
+transition:1;
+ /* tamnho de fonte - almentar */
+font-size: 17px;
+}
+ul{
+    /* estilo da lista desativado */
+list-style: inside;
+ /* alinhar texto a esquerda */
+text-align: left;
+}
+   
+#perfil{
+border-radius: 15px;
+border:2px solid rgb(216, 252, 12);
+filter:contrast(10px);
+}
+
+.links{
+/* decoraçao de texto desativada */
+text-decoration: none;
+color: rgba(55, 0, 253, 0.877);
+}
+
+.links1:hover, .links2:hover, .links3:hover, .links4:hover, .links5:hover {
+font-weight: bold;
+
+}
+
+.links2{
+font-kerning: bold;
+color: rgb(195, 0, 255);
+}
+
+.links3{
+font-palette: bold;
+color: rgb(25, 140, 207);
+}
+
+.links4{
+
+color: rgb(0, 255, 0);
+}
+.links5{
+color:rgb(0, 238, 255);
+}
+
+.menu{
+   /* cor de fundo */ 
+    background-color: #1d1349af;
+    /* alinhamento de texto*/
+    text-align: left;
+    /* espaçamento interno*/
+    padding: 10px;
+/* cor da letra*/
+color: rgb(255, 0, 0);
+/*  margem abaixo*/
+margin-bottom: 15px;
+display: flex;
+gap: 5px;
+justify-content: center;/*flex-start flex-end center space-around space-evenly*/
+align-items: center;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(61, 0, 0);
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 40px;
+    box-shadow:2px 2px 10px ;
+}
+.celular{
+    /*  disaparece icone de menu*/
+    display: none;
+}
+
+/*configuração de css para celular/tablet */
+@media(max-width: 1050px){
+    section{
+        font-size: 15px;
+    }
+
+    .celular{
+        display: block;
+    }
+    .menu ul{
+        /*  APRECE NOME NOM CELULAR*/
+        display: none;
+    }
+
+    ul.mostrarMenu{
+        /*  desaparece nome do menu*/
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+        /* border: 1px solid white; */
+        margin: 3px;
+        border-radius: 10px;
+    }
+}
