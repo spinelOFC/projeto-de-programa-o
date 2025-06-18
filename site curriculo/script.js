@@ -9,6 +9,7 @@ var senha = "99999";
 //estrutura de condição
 
 //registrando alteraçao 
+// enviando alteração pro github com visual estudio
 if(idade > 17){
     //alert("Pode votar! "+ nome);
 } else{
