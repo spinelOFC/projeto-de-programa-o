@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+body{
+      font-family: "Jacquard 12", system-ui;
+}
+.quadrado{
+    width: 200px; /*largura do quadrado*/
+    height: 200px; /*autura do quadrado*/
+    text-align: center;/*centralizar*/
+    font-size: 150px;/*tamanho da letra*/
+    border-radius: 15px;/*arrendondar*/
+    background-color: rgb(126, 13, 13);
+    color: rgba(0, 255, 128, 0.973);/*cor da letra*/
+}
+
+.painel{
+    background-color: rgb(119, 0, 255);
+    max-width: 1000px;
+    text-align: center;
+    margin-left: auto;
+margin-right: auto;
+padding: 120px;
+}
+
+.jogo{
+    margin-left: auto;
+    margin-right: auto;
+}
