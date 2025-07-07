@@ -23,6 +23,38 @@ padding: 120px;
 }
 
 .jogo{
-    margin-left: auto;
-    margin-right: auto;
+  /*  margin-left: auto;
+    margin-right: auto;*/
+}
+.botao{
+background-color: rgb(38, 0, 255);
+color: rgb(255, 0, 0);
+padding: 10px;
+border: nome;
+margin: 10px;
+border-radius: 10px;
+}
+
+.botao:hover{
+background-color: rgb(255, 0, 0);
+color: rgb(25, 0, 255);
+transition: 1s;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/4532221-ilustracao-em-tic-tac-toe-seamless-background-on-dark-blue-vector-illustration-vetor.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;/*alinhar esquerda direita no centro */
+    align-items: center; /* alinhar acima abaixo no centro*/
+    height: 100vh;
+}
+
+@media(max-width: 1050px ){
+    .quadrado{
+        width: 100px;
+        height: 100px;
+        font-size: 70px;
+    }
 }

@@ -17,3 +17,7 @@ if(jogador == "X"){
 }
     }
 }
+
+function reiniciar(){
+    window.location.reload();
+}
